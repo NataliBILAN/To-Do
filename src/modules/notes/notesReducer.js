@@ -17,16 +17,12 @@ function notesReducer(state = [], { type, payload }) {
       );
 
     case types.REORDER_LIST:
-      // console.log(payload.destination.index); //куда
-      // console.log(payload.source.index); //откуда
-
       if (!payload.destination) {
         return;
       }
       const result = Array.from(state);
       console.log(result);
       const [removed] = result.splice(payload.source.index, 1);
-      // console.log([ removed ]);
       result.splice(payload.destination.index, 0, removed);
       return result;
 

@@ -25,7 +25,6 @@ const mapDispatchToProps = {
   deleteNote: notesOperations.deleteNote,
   toggleNote: notesOperations.toggleNoteSuccess,
   onDragEnd: notesAction.orderList,
-  // onDragEnd: notesOperations.orderListSuccess,
 };
 
 export default connect(

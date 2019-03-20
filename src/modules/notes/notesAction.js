@@ -1,16 +1,5 @@
-// import shortid from 'shortid';
 import types from './notesActionTypes';
 
-// const addNote = text => ({
-//   type: types.ADD,
-//   payload: { id: shortid.generate(), text, completed: false },
-// });
-// Это добавление заметки синхронно, без сохранения на сервере
-
-// const deleteNote = id => ({
-//   type: types.DELETE,
-//   payload: id,
-// });
 const orderList = result => ({
   type: types.REORDER_LIST,
   payload: result,

@@ -48,22 +48,9 @@ const toggleNoteSuccess = (id, item) => async dispatch => {
   }
 };
 
-const orderListSuccess = result => async dispatch => {
-  dispatch(actions.fetchRequest());
-  try {
-    console.log(result);
-    await axios.put('http://localhost:3000/notes', {
-      ...result,
-    });
-    dispatch(actions.orderList(result));
-  } catch (error) {
-    dispatch(actions.fetchError(error), console.log(error));
-  }
-};
 export default {
   fetchNotes,
   addNote,
   deleteNote,
   toggleNoteSuccess,
-  orderListSuccess,
 };
