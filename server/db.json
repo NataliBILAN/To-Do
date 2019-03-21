@@ -24,6 +24,16 @@
       "text": "Call mommy",
       "completed": false,
       "id": 8
+    },
+    {
+      "text": "Finding something new for learning",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "text": "Theming with CSS Variables",
+      "completed": false,
+      "id": 10
     }
   ]
 }

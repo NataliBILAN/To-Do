@@ -43,7 +43,7 @@ const TextArea = styled.textarea`
   border: dashed 3px #ea95e0;
   min-height: 100px;
   font-family: 'Gochi Hand', cursive;
-  font-size: 20px;
+  font-size: 30px;
   padding: 20px;
   color: #494a4b;
   margin-bottom: 20px;
